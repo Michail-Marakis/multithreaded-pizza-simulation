@@ -34,11 +34,13 @@ management, and performance behavior in a concurrent environment.
 
 The project uses POSIX threads and is intended to be built on Unix-like systems.
 
-### Compile
+```bash
+# Compile
 gcc -pthread thread-handling-pizza.c -o pizza
 
-### Run
+# Run
 ./pizza <number_of_orders> <number_of_threads>
+
 
 ### Benchmarking
 The test-res.sh script automates the execution of the program with different numbers of threads
