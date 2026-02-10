@@ -4,8 +4,7 @@
 #include <pthread.h>
 #include <stdbool.h>
 
-//αρχικοποίηση μεταβλητών σύμφωνα με την εκφώνηση 
-
+//variables
 int N_tel = 2;
 int N_cook = 2;
 int N_oven = 10;
@@ -38,7 +37,7 @@ float Ps = 20.0;
 
 float P_fail = 5.0;
 
-//αρχικοποίηση στατιστικών μεταβλητών 
+//stats
 int total_pizzas_sold = 0;
 int total_margarita = 0;
 int total_special = 0;
@@ -55,7 +54,7 @@ int Seed;
 int epitixies = 0;
 int apotyxies = 0;
 
-//αρχικοποίηση των mutexes 
+//mutexes
 pthread_mutex_t mutex_stats = PTHREAD_MUTEX_INITIALIZER;
 pthread_mutex_t mutex_prints = PTHREAD_MUTEX_INITIALIZER;
 
