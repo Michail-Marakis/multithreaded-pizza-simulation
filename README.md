@@ -35,7 +35,6 @@ management, and performance behavior in a concurrent environment.
 The project uses POSIX threads and is intended to be built on Unix-like systems.
 
 ### Compile
-```bash
 gcc -pthread thread-handling-pizza.c -o pizza
 
 ### Run
